@@ -42,8 +42,8 @@ LightMode
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp?tab=submit)
+- Live Site URL: [Click Here](https://browser-extensions-manager-vm.netlify.app/)
 
 ## My process
 
