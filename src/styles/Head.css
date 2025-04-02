@@ -38,6 +38,9 @@
 .light-mode {
     background-color: hsl(0, 0%, 93%);
 }
+.mode:hover.light-mode {
+    background-color: hsl(0, 0%, 78%);
+}
 .dark-mode {
     background-color: hsl(225, 23%, 24%);
 }
