@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "../assets/images/logo.svg";
-import moon from "../assets/images/icon-moon.svg";
-import sun from "../assets/images/icon-sun.svg";
+import logo from "../assets/logo.svg";
+import moon from "../assets/icon-moon.svg";
+import sun from "../assets/icon-sun.svg";
 
-import darkModeLogo from "../assets/images/dark.svg";
+import darkModeLogo from "../assets/dark.svg";
 
 import "../styles/Head.css";
 

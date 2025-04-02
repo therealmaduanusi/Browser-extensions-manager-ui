@@ -11,7 +11,7 @@ function List({ propsExtensionList, onHandleToggle, mode, onHandleDelete }) {
       }`}
     >
       <div className={`extentionTitle`}>
-        <img src={propsExtensionList.logo} alt="hello" />
+        <img src={propsExtensionList.logo} alt={`${propsExtensionList.name}-logo`} />
         <div>
           <h4
             className={`${
