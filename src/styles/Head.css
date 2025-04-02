@@ -1,0 +1,46 @@
+.headExtension {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+/* headExtension mode */
+
+.headMode_light {
+    background-color: hsl(200, 60%, 99%);
+}
+.headMode_dark {
+    background-color: hsl(226, 25%, 17%);
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+
+
+/* SUN & MOON STYLE*/
+.mode {
+    border-radius: 10px;
+    padding: 0.5rem 0.66rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+.mode:focus {
+    border: 1px solid hsl(3, 71%, 56%);
+}
+
+.light-mode {
+    background-color: hsl(0, 0%, 93%);
+}
+.dark-mode {
+    background-color: hsl(225, 23%, 24%);
+}
+.mode:hover.dark-mode {
+    background-color: hsl(226, 11%, 37%);
+}

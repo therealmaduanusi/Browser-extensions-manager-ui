@@ -1,0 +1,88 @@
+@font-face {
+    font-family: NotoSans;
+    src: url('../assets/fonts/static/NotoSans-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.filterListWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0 1rem 0;
+    font-family: 'NotoSans';
+}
+
+.filterListWrapper h3 {
+    font-size: 1.8rem;
+}
+
+.h3-dark {
+    color: hsl(200, 60%, 99%);
+}
+.h3-light {
+    color: hsl(225, 23%, 24%);
+}
+
+.filter{
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: 'NotoSans';
+}
+
+.filter-light {
+    color: hsl(225, 23%, 24%);
+    background-color: hsl(200, 60%, 99%);
+}
+.filter-light:hover {
+    color: hsl(226, 11%, 37%);
+}
+.filter-dark {
+    color: hsl(200, 60%, 99%);
+    background-color: hsl(225, 23%, 24%);
+}
+.filter-dark:hover {
+    background-color: hsl(226, 11%, 37%);
+}
+
+/* focus pseudoclass */
+.filter:focus {
+    background-color: hsl(3, 71%, 56%);
+    color: hsl(225, 23%, 24%);
+}
+.filter:focus.filter-light {
+    background-color: hsl(3, 71%, 56%);
+    color: hsl(200, 60%, 99%);
+}
+
+.all {
+    background-color: hsl(3, 71%, 56%);
+    color: hsl(225, 23%, 24%);
+}
+.all.filter-light {
+    color: hsl(200, 60%, 99%);
+}
+.active {
+    background-color: hsl(3, 71%, 56%);
+    color: hsl(225, 23%, 24%);
+}
+.active.filter-light {
+    color: hsl(200, 60%, 99%);
+}
+.inActive {
+    background-color: hsl(3, 71%, 56%);
+    color: hsl(225, 23%, 24%);
+}
+.inActive.filter-light {
+    color: hsl(200, 60%, 99%);
+}
+
+@media (max-width: 650px) {
+    .filterListWrapper {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}

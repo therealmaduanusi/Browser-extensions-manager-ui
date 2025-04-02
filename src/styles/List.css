@@ -1,0 +1,115 @@
+.listDemo {
+    /* background-color: hsl(225, 23%, 24%); */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 1rem;
+    border-radius: 10px;
+}
+.lightMode_list_bgColor {
+    background-color: hsl(200, 60%, 99%);
+}
+.darkMode_list_bgColor {
+    background-color: hsl(226, 25%, 17%);
+}
+.lightMode_list_h4Color {
+    color: hsl(225, 23%, 24%);
+}
+.darkMode_list_h4Color {
+    color: hsl(200, 60%, 99%);
+}
+.lightMode_list_pColor {
+    color: hsl(225, 23%, 24%);
+}
+.darkMode_list_pColor {
+    color: hsl(0, 0%, 78%);
+}
+
+/* list paragraph */
+.list_p {
+    font-size: 0.872rem;
+}
+
+
+.listDemo img {
+    max-width: 100%;
+    display: block;
+}
+.extentionTitle {
+    align-content: start;
+    display: flex;
+    justify-content: space-between;
+    grid-column-gap: 1rem;
+}
+
+.filterEffect {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+/* btn */
+.removeList {
+    padding: 0.2rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid hsl(226, 11%, 37%);
+    background-color: transparent;
+    font-family: 'NotoSans';
+    font-weight: 700;
+}
+.removeList:hover {
+    background-color: hsl(3, 86%, 64%);
+    border: 2px solid hsl(3, 86%, 64%);
+}
+.removeList:focus {
+    border: 2px solid hsl(3, 86%, 64%);
+}
+.removeList_lightMode {
+    color: hsl(225, 23%, 24%);
+}
+.removeList_darkMode {
+    color: hsl(200, 60%, 99%);
+}
+.removeList:hover.removeList_lightMode {
+    color: hsl(200, 60%, 99%);
+}
+.removeList:hover.removeList_darkMode {
+    color: hsl(225, 23%, 24%);
+}
+
+
+.toggle {
+    width: 50px;
+    height: 20px;
+    padding-right: 2px;
+    padding-left: 4px;
+    border-radius: 50px;
+    display: flex;
+    cursor: pointer;
+}
+.toggle:hover.true {
+    background-color: hsl(3, 86%, 64%);
+}
+
+.toggle div {
+    width: 15px;
+    height: 15px;
+    align-self: center;
+    border-radius: 50%;
+    background-color: hsl(200, 60%, 99%);
+}
+
+
+.toggle.true {
+    background-color: hsl(3, 71%, 56%);
+    justify-content: end;
+}
+.toggle.false {
+    background-color: hsl(226, 11%, 37%);
+    justify-content: start;
+}
+.false.toggle_lightMode {
+    background-color: hsl(0, 0%, 93%);
+}
